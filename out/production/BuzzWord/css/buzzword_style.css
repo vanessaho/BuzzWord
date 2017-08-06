@@ -1,0 +1,218 @@
+/*
+.segmented-button-bar .button.first-toolbar-button {
+    -fx-background-insets: 0, 1, 2 1 1 1;
+    -fx-background-radius: 3 0 0 3, 2 0 0 2, 2 0 0 2;
+}
+
+.segmented-button-bar .button:pressed {
+    -fx-background-color:
+        -darkest-black,
+        rgb(55, 57, 58),
+        linear-gradient(to top, -light-black 2%, -dark-black 98%);
+}
+
+*/
+
+#background {
+    -fx-background-color: linear-gradient(to left, #212C54, #9198AE);
+}
+
+#toolbar {
+    -fx-background-color: #212C54;
+    -fx-opacity: 0.5;
+    -fx-border-color: #0D142B;
+    -fx-border-width: 5px;
+    -fx-border-style: solid;
+}
+
+.buttonbar .button {
+    -fx-text-fill: white;
+    -fx-opacity: 0.5;
+    -fx-border: none;
+    -fx-font-weight: 900;
+    -fx-font-size: 20px;
+    -fx-background-color: #000;
+    -fx-background-radius: 15px;
+}
+
+.buttonbar .button:disabled {
+    -fx-opacity: 0.3;
+}
+
+.buttonbar #last-toolbar-button {
+    -fx-text-fill: black;
+    -fx-opacity: 0.5;
+    -fx-border: none;
+    -fx-font-weight: 900;
+    -fx-font-size: 20px;
+    -fx-background-color: #fff;
+    -fx-background-radius: 15px;
+}
+
+.levelButton {
+    -fx-text-fill: black;
+    -fx-opacity: 0.5;
+    -fx-border: none;
+    -fx-background-radius: 100%;
+    -fx-background-color: white;
+    -fx-font-weight: 900;
+    -fx-font-size: 25px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.levelButton:hover {
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+    -fx-background-color: #2C3F7F;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.levelButton:disabled {
+    -fx-opacity: 0.25;
+}
+
+
+#userButton {
+    -fx-text-fill: black;
+    -fx-opacity: 0.5;
+    -fx-font-size: 26px;
+    -fx-background-color: white;
+    -fx-border: none;
+}
+
+#userButton:hover {
+    -fx-text-fill: blue;
+    -fx-background-color: white;
+    -fx-opacity: 1;
+}
+
+#startButton {
+    -fx-text-fill: black;
+    -fx-opacity: 1;
+    -fx-font-size: 16px;
+    -fx-background-radius: 10px;
+    -fx-border:none;
+}
+
+#startButton:hover {
+    -fx-opacity: 1;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+#logOutButton {
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+    -fx-font-size: 16px;
+    -fx-background-radius: 10px;
+    -fx-background-color: black;
+    -fx-border:none;
+}
+
+#logOutButton:hover {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.buttonbar #last-toolbar-button:hover {
+    -fx-background-color: #4770FF;
+    -fx-text-fill: black;
+}
+
+#help {
+    -fx-text-fill: black;
+    -fx-opacity: 0.5;
+    -fx-font-size: 26px;
+    -fx-background-color: white;
+    -fx-border: none;
+}
+
+#help:hover {
+    -fx-opacity: 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.buttonbar .button:hover {
+       -fx-text-fill: white;
+       -fx-opacity: 0.5;
+       -fx-border: none;
+       -fx-font-weight: 900;
+       -fx-font-size: 20px;
+       -fx-background-color: #233574;
+       -fx-background-radius: 15px;
+}
+
+.heading-label {
+    -fx-font-size: 50px;
+    -fx-font-weight: 900;
+    -fx-text-fill: white;
+    -fx-word-spacing: 10px;
+    -fx-opacity: 0.5;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.bordered_pane {
+    -fx-background-color: black;
+}
+
+#letterNode {
+    -fx-background-radius: 100%;
+    -fx-background-color: white;
+    -font-weight: 900;
+    -fx-opacity: 0.5;
+    -fx-font-size: 30px;
+}
+
+#letterNode:hover {
+    -fx-opacity: 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#dragNode {
+    -fx-background-radius: 100%;
+    -fx-background-color: white;
+    -font-weight: 900;
+    -fx-opacity: 1;
+    -fx-font-size: 30px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-border-color: #fff;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+}
+
+#pauseNode {
+    -fx-background-radius: 100%;
+    -fx-background-color: white;
+    -fx-text-fill: white;
+    -font-weight: 900;
+    -fx-opacity: 0.5;
+    -fx-font-size: 30px;
+}
+
+#startTimer {
+    -fx-background-color: transparent;
+    -fx-pref-width: 50px;
+    -fx-border: none;
+    -fx-opacity: 0.75;
+}
+
+#startTimer: hover {
+    -fx-opacity: 1;
+}
+
+#startTimer:disabled {
+    -fx-opacity: 0.25;
+}
+
+
+.labels {
+    -fx-text-fill: white;
+    -fx-opacity: 0.5;
+    -fx-font-size: 30px;
+}
+
+.small-labels {
+    -fx-text-fill: white;
+    -fx-opacity: 0.5;
+    -fx-font-size: 20px;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BuzzWord/BuzzWord.iml" filepath="$PROJECT_DIR$/BuzzWord/BuzzWord.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WordGameFramework/WordGameFramework.iml" filepath="$PROJECT_DIR$/WordGameFramework/WordGameFramework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XMLUtilities/XMLUtilities.iml" filepath="$PROJECT_DIR$/XMLUtilities/XMLUtilities.iml" />
+    </modules>
+  </component>
+</project>
